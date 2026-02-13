@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Change Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Stock Change Dashboard</h1>
+      <p class="subtitle">Track percentage changes to current price.</p>
+
+      <form id="symbol-form" class="symbol-form">
+        <label for="symbol-input">Add symbol:</label>
+        <input id="symbol-input" name="symbol" placeholder="e.g. AAPL" maxlength="10" required />
+        <button type="submit">Add</button>
+      </form>
+
+      <div id="error" class="error" aria-live="polite"></div>
+      <section id="cards" class="cards" aria-live="polite"></section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
