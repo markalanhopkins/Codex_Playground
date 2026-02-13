@@ -1,0 +1,9 @@
+{
+  "name": "stock-change-dashboard",
+  "version": "1.0.0",
+  "description": "Stock symbol dashboard with percentage changes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
